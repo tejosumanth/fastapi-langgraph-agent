@@ -37,6 +37,7 @@ from app.core.observability import langfuse_init
 from app.services.database import database_service
 from app.services.memory import memory_service
 
+# Pre-warm: graph and memory initialized at startup to eliminate cold-start latency
 # Load environment variables
 load_dotenv()
 langfuse_init()
