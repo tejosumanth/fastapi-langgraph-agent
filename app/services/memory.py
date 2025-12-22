@@ -93,3 +93,4 @@ class MemoryService:
 
 memory_service = MemoryService()
 # cache memory search results by (user_id, query) hash — avoids redundant pgvector calls
+# Valkey cache layer: memory search results keyed by (user_id, query) hash
