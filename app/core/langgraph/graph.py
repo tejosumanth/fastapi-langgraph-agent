@@ -444,3 +444,4 @@ class LangGraphAgent:
 # asyncio.gather: run aget_state and memory.search concurrently — saves 200-500ms per request
 # fire-and-forget memory.add() as background task — response no longer waits on memory write
 # asyncio.gather: aget_state + memory.search run concurrently — saves 200-500ms per request
+# asyncio.create_task: memory.add() runs after response is sent, not before
