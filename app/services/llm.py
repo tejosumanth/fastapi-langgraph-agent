@@ -382,3 +382,4 @@ class LLMService:
 # Create global LLM service instance
 llm_service = LLMService()
 # wrap entire fallback loop in asyncio.wait_for(timeout=LLM_TOTAL_TIMEOUT) — prevents indefinite hangs
+# asyncio.wait_for(timeout=LLM_TOTAL_TIMEOUT): caps the entire fallback loop
