@@ -250,3 +250,4 @@ class DatabaseService:
 # Create a singleton instance
 database_service = DatabaseService()
 # copy username into Session at creation time — eliminates per-request user DB lookup
+# username copied to Session at creation — zero extra DB queries per chat request
