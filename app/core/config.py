@@ -269,3 +269,4 @@ class Settings:
 # Create settings instance
 settings = Settings()
 # apply_environment_settings: dev/staging/prod each get different log levels, rate limits, debug flags
+# apply_environment_settings: dev/staging/prod get distinct log levels and rate limits

@@ -256,3 +256,4 @@ logger.info(
     debug=settings.DEBUG,
 )
 # CorrelationIdMiddleware: stamps every request with a unique ID, bound to all log lines
+# CorrelationIdMiddleware: unique request ID stamped on every log line
