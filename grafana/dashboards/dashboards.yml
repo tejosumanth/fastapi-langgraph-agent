@@ -9,3 +9,4 @@ providers:
     editable: true
     options:
       path: /etc/grafana/provisioning/dashboards/json
+# feat: Grafana alert rules — notify when LLM error rate exceeds 5% in 5min window
