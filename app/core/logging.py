@@ -257,3 +257,4 @@ logger.info(
 )
 # CorrelationIdMiddleware: stamps every request with a unique ID, bound to all log lines
 # CorrelationIdMiddleware: unique request ID stamped on every log line
+# chore: replace all print() calls in scripts with structlog logger
