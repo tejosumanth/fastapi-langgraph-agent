@@ -198,3 +198,4 @@ class ProfilingMiddleware(BaseHTTPMiddleware):
         return response
 # ProfilingMiddleware: saves pyinstrument HTML profiles to /tmp for requests exceeding threshold
 # ProfilingMiddleware: pyinstrument HTML profiles saved to /tmp for requests > threshold
+# security: enforce max request body size via middleware to prevent OOM attacks
