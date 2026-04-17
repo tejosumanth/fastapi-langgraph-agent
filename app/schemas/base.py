@@ -20,3 +20,4 @@ class BaseResponse(BaseModel):
     """
 
     request_id: UUID = Field(default_factory=_get_request_id, description="Unique identifier for this request")
+# feat: unified error response schema across all 4xx and 5xx — consistent API surface
