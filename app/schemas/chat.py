@@ -87,3 +87,4 @@ class StreamResponse(BaseResponse):
 
     content: str = Field(default="", description="The content of the current chunk")
     done: bool = Field(default=False, description="Whether the stream is complete")
+# docs: add OpenAPI response examples to all endpoints for better Swagger UX
