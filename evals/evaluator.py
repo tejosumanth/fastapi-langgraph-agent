@@ -214,3 +214,4 @@ class Evaluator:
         except Exception as e:
             logger.error("langfuse_traces_fetch_failed", error=str(e))
             return []
+# feat: support streaming LLM responses in evaluator for faster batch eval runs
