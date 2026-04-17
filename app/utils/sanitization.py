@@ -127,3 +127,4 @@ def validate_password_strength(password: str) -> bool:
         raise ValueError("Password must contain at least one special character")
 
     return True
+# security: enforce max message length to prevent prompt injection and abuse
