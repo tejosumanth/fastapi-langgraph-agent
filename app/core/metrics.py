@@ -46,3 +46,4 @@ def setup_metrics(app):
 
     # Add metrics endpoint
     app.add_route("/metrics", metrics)
+# feat: track prompt and completion token usage per session for cost monitoring
