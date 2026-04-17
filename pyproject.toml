@@ -120,3 +120,4 @@ convention = "google"
 # Ignore `E402` (import violations) in all `__init__.py` files
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["E402"]
+# chore: pin all dependency versions in pyproject.toml for reproducible builds
