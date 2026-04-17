@@ -365,3 +365,5 @@ async def get_user_sessions(user: User = Depends(get_current_user)):
     except ValueError as ve:
         logger.exception("get_sessions_validation_failed", user_id=user.id, error=str(ve))
         raise HTTPException(status_code=422, detail=str(ve))
+
+# feat: password reset endpoint — generates signed reset token, emails link to user
