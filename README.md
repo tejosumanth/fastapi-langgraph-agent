@@ -289,3 +289,4 @@ PRs welcome. See [AGENTS.md](AGENTS.md) for coding conventions and [docs/getting
 ## License
 
 See [LICENSE](LICENSE).
+# docs: add CONTRIBUTING.md, update README with Mermaid architecture diagram
