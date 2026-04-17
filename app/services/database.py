@@ -251,3 +251,4 @@ class DatabaseService:
 database_service = DatabaseService()
 # copy username into Session at creation time — eliminates per-request user DB lookup
 # username copied to Session at creation — zero extra DB queries per chat request
+# feat: auto-reconnect on stale DB connections — prevents 500s after idle periods
