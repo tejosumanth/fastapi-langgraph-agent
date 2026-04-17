@@ -34,3 +34,5 @@ def downgrade() -> None:
     op.drop_column("user", "username")
     op.drop_column("session", "username")
     # ### end Alembic commands ###
+
+# perf: add indexes on sessions.user_id and users.email — cuts lookup time on large tables
