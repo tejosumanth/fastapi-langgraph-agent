@@ -383,3 +383,4 @@ class LLMService:
 llm_service = LLMService()
 # wrap entire fallback loop in asyncio.wait_for(timeout=LLM_TOTAL_TIMEOUT) — prevents indefinite hangs
 # asyncio.wait_for(timeout=LLM_TOTAL_TIMEOUT): caps the entire fallback loop
+# refactor: lazy-init LLM instances in registry — avoids API key validation at import time
